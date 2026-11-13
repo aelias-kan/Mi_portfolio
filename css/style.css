@@ -75,3 +75,45 @@ a {
         transition-duration: 0.01ms !important;
     }
 }
+
+
+/* basic design styles  */
+
+ /* and variables   */
+
+:root {
+
+    --color-cream: #F1EDE3;
+    --color-black: #151515;
+    --color-orange: #D94B28;
+    --color-gray: #77736D;
+    --color-white: #FFFFFF;
+
+    --font-heading: Arial, sans-serif;
+    --font-body: Arial, sans-serif;
+
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 40px;
+    --space-xl: 64px;
+
+    --page-width: 1440px;
+    --page-padding: 40px;
+}
+
+body {
+    background-color: var(--color-cream);
+    color: var(--color-black);
+    font-family: var(--font-body);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button,
+a {
+    cursor: pointer;
+}
